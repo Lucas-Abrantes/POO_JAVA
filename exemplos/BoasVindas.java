@@ -1,4 +1,4 @@
-package questoes;
+package exemplos;
 import java.util.Scanner;
 
 
