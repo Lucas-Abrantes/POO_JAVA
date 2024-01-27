@@ -13,8 +13,10 @@ public class questao_14 {
         } else {
             int[] result = fibSeries(num);
             System.out.println("Fibonacci(" + num + "): " + calculaFib(num));
+
             System.out.println("\n");
             System.out.println("N-esimo termo: ");
+            
             for(int i = 0; i < num; i++){
                 System.out.print(result[i]+ " ");
             }
@@ -23,14 +25,14 @@ public class questao_14 {
         System.out.println("\n");
     }
 
+
     public static int calculaFib(int num){
-    
         if(num <= 1 ){
             return num;
         }
         return  calculaFib(num - 1) + calculaFib( num - 2);
-        
     }
+
 
     public static int[] fibSeries(int num){
         int[] fib = new int[num];
